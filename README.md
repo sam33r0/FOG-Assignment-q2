@@ -36,10 +36,8 @@ To get a local copy up and running, follow these steps:
    # or
    yarn
 
-3. Development
-
-To start the development server:
-
+3. Development:
+  To start the development server
    ```bash
    npm run dev
    # or
