@@ -46,12 +46,12 @@ function Grid({ rows = 15, cols = 20 }:{rows: number, cols: number}) {
       }, []);
    
     return (
-        <div className='flex flex-col shadow-2xl'>
+        <div className='flex flex-col border-y-4 border-x-2 border-gray-900 '>
             {
                 grid.map((_, i) => {
                     return (<div key={`${i}`} className='flex flex-row'>
                         {
-                            grid[i].map((_, j) => <div key={`${i} ${j}`} className={`text-white text-right md:w-5 w-4 border border-white md:h-5 h-4 ${grid[i][j]}`}>
+                            grid[i].map((_, j) => <div key={`${i} ${j}`} className={`text-white text-right md:w-5 w-4 border-2 border-gray-900 md:h-5 h-4 ${grid[i][j]}`}>
                             </div>)
                         }
                     </div>)
