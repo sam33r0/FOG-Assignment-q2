@@ -31,16 +31,17 @@ To get a local copy up and running, follow these steps:
 
 2. Install dependencies:
 
-  ```bash
-  npm install
-  # or
-  yarn
+   ```bash
+   npm install
+   # or
+   yarn
 
 3. Development
 
 To start the development server:
-  ```bash
-  npm run dev
-  # or
-  yarn dev
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
 
