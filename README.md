@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# Future of Gaming Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application created using Vite and TypeScript, developed as an assignment for "Future of Gaming".
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project implements a grid-based component that dynamically updates colors based on predefined constants and random intervals. It showcases basic React and TypeScript integration, demonstrating animation and state management within a React component.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A next-generation frontend tool that provides a fast development server and optimized production build.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To get a local copy up and running, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Prerequisites
+
+- Node.js (version >= 12.0.0)
+- npm (version >= 5.2.0) or yarn (version >= 1.0.0)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sam33r0/FOG-Assignment-q2
+   cd future-of-gaming
+
+2. Install dependencies:
+
+  ```bash
+  npm install
+  # or
+  yarn
+
+3. Development
+
+To start the development server:
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+
