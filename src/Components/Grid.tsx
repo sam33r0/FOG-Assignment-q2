@@ -44,7 +44,7 @@ function Grid({ rows = 15, cols = 20 }: { rows: number, cols: number }) {
       const newColor = colorDic[shade];
       setColor(newColor);
       setCurShade(shade);
-    }, 2500);
+    }, 2000);
 
     return () => clearInterval(interval1);
   }, []);
