@@ -46,7 +46,7 @@ function Grid({ rows = 15, cols = 20 }:{rows: number, cols: number}) {
       }, []);
    
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col shadow-2xl'>
             {
                 grid.map((_, i) => {
                     return (<div key={`${i}`} className='flex flex-row'>

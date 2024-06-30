@@ -11,8 +11,8 @@ function Home() {
         <Grid rows={15} cols={20} />
         <div className="text-pretty text-l text-white md:w-[400px] flex flex-row gap-3 justify-end items-center">
           <div></div>
-          <a href="https://github.com/sam33r0">
-            -Sameer Srivastava
+          <a className="cursor-alias" href="https://github.com/sam33r0">
+            -<span className="underline ">Sameer Srivastava</span> (Github)
           </a>
         </div>
       </div>
