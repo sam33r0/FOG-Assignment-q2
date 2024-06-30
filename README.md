@@ -37,7 +37,13 @@ To get a local copy up and running, follow these steps:
    yarn
 
 3. Development:
+<<<<<<< HEAD
   To start the development server
+=======
+
+To start the development server:
+
+>>>>>>> ab957f65f0de5dad70fb44f55c17051491ad7d03
    ```bash
    npm run dev
    # or
